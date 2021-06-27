@@ -16,3 +16,7 @@ def about(request):
 def contact(request):
 
     return render(request, 'contact.html')
+
+def detail_image(request):
+
+    return render(request, 'photo-detail.html')
